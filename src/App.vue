@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { V } from 'vue-router/dist/index-Cu9B0wDz.mjs';
 
 </script>
 <!-- 
