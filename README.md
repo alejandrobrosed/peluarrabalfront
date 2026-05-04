@@ -36,3 +36,12 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### bbdd
+
+user: root
+pass: rootpassword
+
+### login users
+user: admin@arrabal.com
+pass: password
