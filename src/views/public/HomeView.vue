@@ -9,89 +9,155 @@
       <v-carousel-item src="/img/pelu2.jpg" cover />
     </v-carousel>
 
-    <v-container class="text-center py-12">
-      <h1 class="text-h3 font-weight-bold mb-4">
-  Tu peluquería de confianza en el Arrabal
-</h1>
+    <v-container class="text-center py-16 hero-section">
+      <div class="mb-4">
+        <span>
+          ⭐⭐⭐⭐⭐ Más de 500 clientes satisfechos
+        </span>
+      </div>
+      <h1 class="text-h2 font-weight-bold mb-4">
+        Tu peluquería de confianza en el Arrabal
+      </h1>
 
-<p class="text-subtitle-1 mb-6">
-  Aquí se viene a salir con estilo.
-</p>
+      <p class="text-h6 mb-8 hero-subtitle">
+        Cortes, coloración, barbería y tratamientos profesionales con atención personalizada.
+      </p>
 
       <v-btn size="large" color="primary" to="/reservar">
         Reservar ahora
       </v-btn>
+      <v-btn size="large" color="primary" to="/precios">
+        Ver precios
+      </v-btn>
     </v-container>
 
-    <v-container class="py-12">
-      <h2 class="text-h4 text-center mb-8">Nuestros Servicios</h2>
+    <v-container class="py-16">
+      <h2 class="text-h3 text-center font-weight-bold mb-10">
+        ¿Por qué elegir La Pelu del Arrabal?
+      </h2>
 
       <v-row>
-        <!-- Corte Caballero -->
         <v-col cols="12" md="4">
-          <v-card>
-            <v-img src="/img/corte_caballero.jpeg" height="200" cover />
-            <v-card-title>Corte Caballero</v-card-title>
-            <v-card-text>
-              Corte masculino moderno o clásico adaptado a tu estilo y forma de rostro.
-            </v-card-text>
+          <v-card class="feature-card pa-6 text-center">
+            <div class="feature-icon">
+
+            </div>
+            <h3>Profesionales con esperiencia</h3>
+            <p>Un equipo especializado en tendencias, corte y asesoramiento personalizado</p>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="4">
+          <v-card class="feature-card pa-6 text-center">
+            <div class="feature-icon">
+
+            </div>
+            <h3>Productos premium</h3>
+            <p>Trabajamos con productos de alta calidad para cuidar tu cabello y tu piel.</p>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="4">
+          <v-card class="feature-card pa-6 text-center">
+            <div class="feature-icon">
+
+            </div>
+            <h3>Reserva online</h3>
+            <p>Reserva tu cita cómodamente en menos de un minuto desde cualquier dispositivo</p>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="4">
+          <v-card class="feature-card pa-6 text-center">
+            <div class="feature-icon">
+
+            </div>
+            <h3>Atención personalizada</h3>
+            <p>Cada cliente recibe un servicio adaptado a su estilo y necesidades</p>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="4">
+          <v-card class="feature-card pa-6 text-center">
+            <div class="feature-icon">
+
+            </div>
+            <h3>Zona barbería</h3>
+            <p>Cortes clásicos, modernos y arreglo de barba con acabado profesional</p>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="4">
+          <v-card class="feature-card pa-6 text-center">
+            <div class="feature-icon">
+
+            </div>
+            <h3>Especialistas en color</h3>
+            <p>Coloración, mechas y tratamiento para conseguir el look que buscas</p>
           </v-card>
         </v-col>
 
-        <!-- Corte Mujer -->
-        <v-col cols="12" md="4">
-          <v-card>
-            <v-img src="/img/corte_mujer.jpeg" height="200" cover />
-            <v-card-title>Corte Mujer</v-card-title>
-            <v-card-text>
-              Cortes personalizados para mujer, desde estilos actuales hasta looks elegantes.
-            </v-card-text>
-          </v-card>
-        </v-col>
 
-        <!-- Barba -->
-        <v-col cols="12" md="4">
-          <v-card>
-            <v-img src="/img/barba.jpg" height="200" cover />
-            <v-card-title>Barba</v-card-title>
-            <v-card-text>
-              Arreglo y perfilado de barba con acabado profesional y cuidado de la piel.
-            </v-card-text>
-          </v-card>
-        </v-col>
+      </v-row>
+    </v-container>
+    <v-container class="py-16">
+      <h2 class="text-h3 text-center font-weight-bold mb-10">
+        Nuestros servicios
+      </h2>
 
-        <!-- Color -->
+      <v-row>
         <v-col cols="12" md="4">
-          <v-card>
-            <v-img src="/img/color.jpeg" height="200" cover />
-            <v-card-title>Color</v-card-title>
-            <v-card-text>
-              Servicios de coloración, mechas y balayage con productos de alta calidad.
-            </v-card-text>
-          </v-card>
-        </v-col>
+          <v-card class="feature-card pa-6 text-center">
+            <div class="feature-icon">
 
-        <!-- Tratamientos -->
-        <v-col cols="12" md="4">
-          <v-card>
-            <v-img src="/img/tratamientos.jpg" height="200" cover />
-            <v-card-title>Tratamientos</v-card-title>
-            <v-card-text>
-              Tratamientos capilares para hidratación, reparación y cuidado profundo del cabello.
-            </v-card-text>
+            </div>
+            <h3>Corte caballero</h3>
+            <p>Corte masculino moderno o clásico adaptado a tu estilo</p>
           </v-card>
         </v-col>
         <v-col cols="12" md="4">
-          <v-card>
-            <v-img src="/img/peinado.jpg" height="200" cover />
-            <v-card-title>Peinado</v-card-title>
-            <v-card-text>
-              Peinados y styling profesional para eventos, ocasiones especiales o tu día a día.
-            </v-card-text>
+          <v-card class="feature-card pa-6 text-center">
+            <div class="feature-icon">
+
+            </div>
+            <h3>Corte mujer</h3>
+            <p>Corte personalizado para mujer con acabados profesionales</p>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="4">
+          <v-card class="feature-card pa-6 text-center">
+            <div class="feature-icon">
+
+            </div>
+            <h3>Barba</h3>
+            <p>Perfilado y cuidado profesional de barba</p>
           </v-card>
         </v-col>
       </v-row>
     </v-container>
+    <v-container class="py-16">
+      <h2 class="text-h3 text-center font-weight-bold mb-10">
+        Reseñas
+      </h2>
 
+      <v-row>
+        <v-col cols="12" md="4">
+          <v-card class="review-card p6">
+            <div class="text-h6 mb-2">⭐⭐⭐⭐⭐</div>
+            <p>
+              "El mejor corte que me han hecho en años. Trato excelente y puntualidad."
+            </p>
+            <strong>María G.</strong>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="4">
+          <v-card class="review-card p6">
+            <div class="text-h6 mb-2">⭐⭐⭐⭐⭐</div>
+            <p>
+              "El mejor corte que me han hecho en años. Trato excelente y puntualidad."
+            </p>
+            <strong>María G.</strong>
+          </v-card>
+        </v-col>
+      </v-row>
+
+    </v-container>
+  
   </v-container>
+
 </template>
