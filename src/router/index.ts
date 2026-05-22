@@ -7,6 +7,7 @@ import AdminLayout from "@/layouts/AdminLayout.vue";
 import PreciosView from "@/views/public/PreciosView.vue";
 import SobreNosotrosView from "@/views/public/SobreNosotrosView.vue";
 import EmpleoView from "@/views/public/EmpleoView.vue";
+import ComoReservarView from "@/views/public/ComoReservarView.vue";
 
 import HomeView from "@/views/public/HomeView.vue";
 import LoginView from "@/views/auth/LoginView.vue";
@@ -24,6 +25,7 @@ const routes: RouteRecordRaw[] = [
       { path: "precios", component: PreciosView },
       { path: "sobre-nosotros", component: SobreNosotrosView },
       { path: "empleo", component: EmpleoView },
+      { path: "como-reservar", component: ComoReservarView },
     ],
   },
   {
